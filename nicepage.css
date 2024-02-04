@@ -42666,6 +42666,12 @@ a.u-link.u-text-hover-grey-90:hover {
 		margin-top: -43px;
     	margin-bottom: -126px;
 	}
+  .fnt-mod{
+    font-size: 2rem !important;
+  }
+  .frm-cont{
+    margin-top: -63px;
+  }
 }
 .btn-upper{
 		margin-top: 4rem;
