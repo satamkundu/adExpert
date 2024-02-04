@@ -42614,6 +42614,10 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-left: 235px;
   }
 
+  body{
+    padding-right: 10px;
+  }
+
   .u-section-1 .u-text-1 {
     margin: 0px !important;
 	text-align: center;
@@ -42622,7 +42626,7 @@ a.u-link.u-text-hover-grey-90:hover {
 	margin-left: 0px !important;
 	}
 	.sub_btn:before {
-		left: 64px !important;
+		display: none;
 	}
 	.btn-upper{
 		margin-top: 13rem !important;
@@ -42631,11 +42635,15 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 100% !important;
   }
   input,select{
-			font-size: 13px !important;
+			font-size: 12px !important;
 		}
 		form{
 			font-size: 13px !important;
 		}
+
+    .submit {
+      width: 100% !important;
+    }
 }
 .btn-upper{
 		margin-top: 4rem;
