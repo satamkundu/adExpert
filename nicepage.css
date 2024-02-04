@@ -18314,7 +18314,8 @@ p {
   font-family: Oswald, sans-serif !important;
 }
 .u-font-raleway.u-custom-font {
-  font-family: Raleway, sans-serif !important;
+  font-family: Brawler, sans-serif;
+  font-weight: 400 !important;
 }
 .u-font-pt-sans.u-custom-font {
   font-family: 'PT Sans', sans-serif !important;
