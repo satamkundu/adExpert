@@ -42613,10 +42613,28 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-menu-1 {
     margin-left: 235px;
   }
+
+  .u-section-1 .u-text-1 {
+    margin: 0px !important;
+	text-align: center;
+  }
+  .from-div {
+	margin-left: 0px !important;
+	}
+	.sub_btn:before {
+		left: 75px !important;
+	}
+	.btn-upper{
+		margin-top: 13rem !important;
+	}
 }
+.btn-upper{
+		margin-top: 4rem;
+	}
 @media (max-width: 575px) {
   .u-header .u-menu-1 {
-    margin-left: 148px;
+    /* margin-left: 148px; */
+    float: right;
   }
 }
  .u-footer {
