@@ -42622,11 +42622,20 @@ a.u-link.u-text-hover-grey-90:hover {
 	margin-left: 0px !important;
 	}
 	.sub_btn:before {
-		left: 75px !important;
+		left: 64px !important;
 	}
 	.btn-upper{
 		margin-top: 13rem !important;
 	}
+  .from-div{
+    width: 100% !important;
+  }
+  input,select{
+			font-size: 13px !important;
+		}
+		form{
+			font-size: 13px !important;
+		}
 }
 .btn-upper{
 		margin-top: 4rem;
@@ -42638,7 +42647,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
   .u-clearfix{
     width: 100% !important;
-    margin-left: 8px !important;
+    padding-left: 8px !important;
   }
 }
  .u-footer {
