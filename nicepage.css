@@ -42615,7 +42615,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   body{
-    padding-right: 10px;
+    padding-right: 12px;
   }
 
   .u-section-1 .u-text-1 {
@@ -42647,6 +42647,9 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 .btn-upper{
 		margin-top: 4rem;
+	}
+  .btn-middle{
+		margin-top: 1rem;
 	}
 @media (max-width: 575px) {
   .u-header .u-menu-1 {
