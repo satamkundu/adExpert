@@ -1,7 +1,5 @@
 <?php
-echo 1;
-exit;
-if(isset($_POST['submit']) && $_POST['submit'] == 'SUBMIT'){
+
 	$name = $_POST['name'];
 	$email = $_POST['email'];
 	$interestedIn = implode(", ", $_POST['checkbox']);
@@ -12,10 +10,10 @@ if(isset($_POST['submit']) && $_POST['submit'] == 'SUBMIT'){
 	$message = $_POST['message'];
 
 	$to = "bikramjitbusiness@gmail.com";
+	//$to = "satamkundu67@gmail.com";
 	$subject = "New Enquery";
 	$txt = "A new Enquery came from {$name}, Email {$email}, Mobile number is : {$number}, Company name is : {$company}, CIty name is : {$city}, He is interested in {$interestedIn}, his monthly budget is {$monthlyBudget} and he leave a message that is : {$message}";
 	$headers = "From: info@onlineadsexpert.com";
 
 	mail($to,$subject,$txt,$headers);
-}
 ?>

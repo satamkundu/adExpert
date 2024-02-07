@@ -1004,12 +1004,11 @@
 													</div>
 												</td>
 											</tr>
-											<div class="u-form-send-message u-form-send-success"> Thank you! Your
-												message has been sent.
+											<div class="u-form-send-message u-form-send-success"> Successfully sent your request, we will contact you shortly, Thanking You...
 											</div>
-											<div class="u-form-send-error u-form-send-message"> Unable to send your
+											<!--<div class="u-form-send-error u-form-send-message"> Unable to send your
 												message. Please fix errors
-												then try again. </div>
+												then try again. </div>-->
 											
 										</table>
 									</form>
@@ -1041,7 +1040,7 @@
       processData: false,
       success: function(response) {
         //console.log(response);
-        $(".u-form-send-message").css("display","block");
+        alert("Thank you for your request, we will contact you shortly....")
         $("#form").trigger("reset"); // to reset form input fields
       },
       error: function(e) {
