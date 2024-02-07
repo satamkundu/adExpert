@@ -42672,6 +42672,9 @@ a.u-link.u-text-hover-grey-90:hover {
   .frm-cont{
     margin-top: -63px;
   }
+  select{
+    padding-right: 30px;
+  }
 }
 .btn-upper{
 		margin-top: 4rem;

@@ -10,7 +10,8 @@
 	<title>Home</title>
 	<link rel="stylesheet" href="nicepage.css" media="screen">
 	<link rel="stylesheet" href="Home.css" media="screen">
-	<script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+	<!--<script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 	<script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
 	
 	<meta name="referrer" content="origin">
@@ -849,7 +850,7 @@
 								<div class="u-expanded-width u-form u-form-1">
 									<form action="#"
 										class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="email"
-										name="form" style="padding: 10px;">
+										name="form" style="padding: 10px;" id="form">
 										<table class="from-div">
 											<tr>
 												<td colspan="2">
@@ -860,52 +861,52 @@
 														<div class="u-form-checkbox-group-wrapper">
 															<div class="u-input-row">
 																<input id="field-eaf5" type="checkbox" name="checkbox[]"
-																	value="1" class="u-field-input" required="required"
+																	value="Integrated Digital Marketing" class="u-field-input" 
 																	data-calc="1">
 																<label class="u-field-label" for="field-eaf5">Integrated
 																	Digital Marketing</label>
 															</div>
 															<div class="u-input-row">
 																<input id="field-bc84" type="checkbox" name="checkbox[]"
-																	value="2" class="u-field-input" required="required"
+																	value="Performance Marketing" class="u-field-input" 
 																	data-calc="2">
 																<label class="u-field-label"
 																	for="field-bc84">Performance Marketing</label>
 															</div>
 															<div class="u-input-row">
 																<input id="field-a8b0" type="checkbox" name="checkbox[]"
-																	value="3" class="u-field-input" required="required"
+																	value="Brand Marketing" class="u-field-input" 
 																	data-calc="3">
 																<label class="u-field-label" for="field-a8b0">Brand
 																	Marketing</label>
 															</div>
 															<div class="u-input-row">
 																<input id="field-fff4" data-calc="4" type="checkbox"
-																	name="checkbox[]" value="4" class="u-field-input">
+																	name="checkbox[]" value="Brand Strategy" class="u-field-input">
 																<label class="u-field-label" for="field-fff4">Brand
 																	Strategy</label>
 															</div>
 															<div class="u-input-row">
 																<input id="field-d205" data-calc="5" type="checkbox"
-																	name="checkbox[]" value="5" class="u-field-input">
+																	name="checkbox[]" value="Content and SEO" class="u-field-input">
 																<label class="u-field-label" for="field-d205">Content
 																	and SEO</label>
 															</div>
 															<div class="u-input-row">
 																<input id="field-f6ba" data-calc="6" type="checkbox"
-																	name="checkbox[]" value="6" class="u-field-input">
+																	name="checkbox[]" value="Influencer Marketing" class="u-field-input">
 																<label class="u-field-label" for="field-f6ba">Influencer
 																	Marketing</label>
 															</div>
 															<div class="u-input-row">
 																<input id="field-6e95" data-calc="7" type="checkbox"
-																	name="checkbox[]" value="7" class="u-field-input">
+																	name="checkbox[]" value="Marketing Automation" class="u-field-input">
 																<label class="u-field-label" for="field-6e95">Marketing
 																	Automation</label>
 															</div>
 															<div class="u-input-row">
 																<input id="field-0e69" data-calc="8" type="checkbox"
-																	name="checkbox[]" value="8" class="u-field-input">
+																	name="checkbox[]" value="Tech & Website" class="u-field-input">
 																<label class="u-field-label" for="field-0e69">Tech &
 																	Website</label>
 															</div>
@@ -940,7 +941,7 @@
 												<td>
 													<div class="u-form-group u-form-group-5">														
 														<input type="text" placeholder="Enter Company Name"
-															id="text-7e86" name="text"
+															id="text-7e86" name="company"
 															class="u-input u-input-rectangle">
 													</div>
 												</td>
@@ -958,21 +959,21 @@
 												<td>
 													<div class="u-form-group u-form-select u-form-group-7">
 														<div class="u-form-select-wrapper">
-															<select id="select-d110" name="select-1"
+															<select id="select-d110" name="monthlyBudget"
 																class="u-input u-input-rectangle">
 																<option value="00" data-calc="0">Avg Monthly Budget
 																</option>
-																<option value="0" data-calc="01">Rs. 0 to Rs. 1 Lakhs
+																<option value="0 to 1 lakhs" data-calc="01">Rs. 0 to Rs. 1 Lakhs
 																</option>
-																<option value="0" data-calc="0">Rs. 1 to Rs. 10 Lakhs
+																<option value="1 to 10 lakhs" data-calc="0">Rs. 1 to Rs. 10 Lakhs
 																</option>
-																<option value="10" data-calc="10">Rs. 10 to Rs. 25 Lakhs
+																<option value="10 to 25 lakhs" data-calc="10">Rs. 10 to Rs. 25 Lakhs
 																</option>
-																<option value="25" data-calc="25">Rs. 25 to Rs. 50 Lakhs
+																<option value="25 to 50 lakhs" data-calc="25">Rs. 25 to Rs. 50 Lakhs
 																</option>
-																<option data-calc="50" value="50">Rs. 50 to Rs. 1 Crore
+																<option data-calc="50 lakhs to 1cr" value="50">Rs. 50 to Rs. 1 Crore
 																</option>
-																<option data-calc="100" value="100">More than Rs. 1
+																<option data-calc="more than 1 cr" value="100">More than Rs. 1
 																	crore</option>
 															</select>
 															<svg class="u-caret u-caret-svg" version="1.1" id="Layer_1"
@@ -999,7 +1000,7 @@
 												<td colspan="2">
 													<div class="u-align-left u-form-group u-form-submit sub_btn">
 														<!-- <a href="#" class="u-btn u-btn-submit u-button-style">Submit</a> -->
-														<input class="submit" type="submit" value="SUBMIT">
+														<input class="submit" name="submit" type="submit" value="SUBMIT">
 													</div>
 												</td>
 											</tr>
@@ -1009,9 +1010,7 @@
 											<div class="u-form-send-error u-form-send-message"> Unable to send your
 												message. Please fix errors
 												then try again. </div>
-											<input type="hidden" value="" name="recaptchaResponse">
-											<input type="hidden" name="formServices"
-												value="53f5b078-ec76-fbdf-4461-27feadf3d66d">
+											
 										</table>
 									</form>
 								</div>
@@ -1029,7 +1028,29 @@
 		text-align: center;
 	}
 </style>
-
+<script type="text/javascript">
+  $(document).ready(function() {
+  $("#form").on('submit', (function(e) {
+    e.preventDefault();
+    $.ajax({
+      url: "mail.php",
+      type: "POST",
+      data: new FormData(this),
+      contentType: false,
+      cache: false,
+      processData: false,
+      success: function(response) {
+        //console.log(response);
+        $(".u-form-send-message").css("display","block");
+        $("#form").trigger("reset"); // to reset form input fields
+      },
+      error: function(e) {
+        console.log(e);
+      }
+    });
+  }));
+});
+</script>
 
 	<footer class="" id="sec-b566">
 		<div class="u-clearfix u-sheet u-sheet-1">
